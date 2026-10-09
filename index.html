@@ -2,11 +2,72 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>云计算实验 Web页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云计算实验‑云环境Web服务器搭建</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            /* 渐变背景，多种颜色过渡 */
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        .container {
+            background-color: rgba(255,255,255,0.92);
+            width: 85%;
+            max-width: 650px;
+            padding: 45px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+            text-align: center; /* 全部内容居中 */
+        }
+        h1 {
+            color: #d63384;
+            font-size: 34px;
+            margin-bottom: 22px;
+        }
+        h2 {
+            color: #2563eb;
+            font-size:22px;
+            margin-bottom:18px;
+        }
+        p {
+            font-size:17px;
+            color:#333333;
+            margin:12px 0;
+            line-height: 1.7;
+        }
+        .tip-box {
+            margin-top: 30px;
+            padding:16px;
+            background-color: #fff2cc;
+            border-left:6px solid #f59e0b;
+            border-radius: 8px;
+        }
+        .tip-box p{
+            color:#92400e;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World！云环境Web服务器实验</h1>
-    <h1>计研262班卢纪元</h1>
-    <p>实验：云计算与分布式系统 实验2 GitHub Pages部署Web页面</p>
+    <div class="container">
+        <h1>🎉 Hello World</h1>
+        <h2>云计算与分布式系统 实验2</h2>
+        <h2>计研262班卢纪元</h2>
+        <p>云环境下Web服务器环境搭建实验</p>
+        <p>部署平台：GitHub Pages</p>
+        <p>本页面已经成功部署在云端，公网可访问。</p>
+
+        <div class="tip-box">
+            <p>实验说明：无需购买物理服务器，将网页代码上传到云端仓库，</p>
+            <p>由云平台提供Web托管服务，对外提供网页访问。</p>
+        </div>
+    </div>
 </body>
 </html>
